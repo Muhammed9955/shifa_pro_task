@@ -1,0 +1,13 @@
+.DoctorCertificates_imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img {
+  width: 130px;
+  height: 100px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 0;
+}

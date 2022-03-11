@@ -1,0 +1,13 @@
+.WorkSpaceItem_icon {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  color: black;
+}
+.WorkSpaceItem p {
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+.WorkSpaceItem h4 {
+  margin: 0;
+}

@@ -1,0 +1,53 @@
+.DoctorInfoCard {
+  /* width: 50%; */
+  display: flex;
+  /* justify-content: space-between; */
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 0;
+  height: auto;
+}
+.DoctorInfoCard_Img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+.DoctorInfoCard_left {
+  margin-right: 2rem;
+}
+.DoctorInfoCard_left h3 {
+  color: grey;
+  padding-left: 4rem;
+}
+.DoctorInfoCard_left hr {
+  opacity: 0.4;
+}
+.starIcon {
+  font-size: 1.5rem;
+  color: yellow;
+}
+.starIconGrey {
+  font-size: 1.5rem;
+  color: lightgrey;
+}
+.DoctorInfoCard_left_rating {
+  display: flex;
+  align-items: center;
+}
+.DoctorInfoCard_left p {
+  margin-right: 1rem;
+  color: grey;
+}
+
+@media only screen and (max-width: 1024px) {
+  .DoctorInfoCard {
+    flex-direction: column;
+  }
+  .DoctorInfoCard_Img {
+    width: 100%;
+    height: 25%;
+    object-fit: fill;
+  }
+}

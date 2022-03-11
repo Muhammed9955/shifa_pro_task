@@ -1,0 +1,122 @@
+.footer {
+  background-color: var(--color-primary);
+  /* height: 3vh; */
+  color: white;
+  width: 100%;
+  padding: 3% 0%;
+  margin-top: 6rem;
+}
+.footer hr {
+  margin-top: 3rem;
+  opacity: 0.5;
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0% 10%;
+}
+
+.footerList {
+  /* width: 80%; */
+  text-align: right;
+}
+.footerList h2 {
+  font-weight: normal;
+}
+.footerList p {
+  opacity: 0.5;
+}
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.StoreButton {
+  background-color: rgb(196, 190, 190, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  border-radius: 10px;
+}
+.StoreButtonIcon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: right;
+}
+
+.footerRight img {
+  width: 100px;
+  object-fit: contain;
+}
+.footerRightSocial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerRightSocialIcon {
+  margin-top: 1rem;
+  /* margin-right: 1rem; */
+  font-size: 1.5rem;
+}
+.footerLinksRespon {
+  display: none;
+}
+.footerContainerRespon {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .footerLeft h2 {
+    font-size: 0.8rem;
+  }
+
+  .footerList h3 {
+    font-size: 0.8rem;
+  }
+  .footerList p {
+    font-size: 0.7rem;
+  }
+  .footerRight img {
+    width: 60px;
+    object-fit: contain;
+  }
+  .StoreButtonIcon {
+    font-size: 1rem;
+  }
+  .StoreButton p {
+    font-size: 0.8rem;
+  }
+  .footerRightSocialIcon {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerContainer {
+    display: none;
+  }
+  .footerContainerRespon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0% 5%;
+  }
+  .FooterListRespon {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+}

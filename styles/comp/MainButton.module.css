@@ -1,0 +1,19 @@
+.MainButton {
+  background-color: var(--color-primary);
+  padding: 0 2rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+.MainButton:hover {
+  cursor: pointer;
+  /* color: #4ab9b1; */
+  /* background-color: white !important; */
+}
+.MainButton p {
+  margin-right: 0.5rem;
+}

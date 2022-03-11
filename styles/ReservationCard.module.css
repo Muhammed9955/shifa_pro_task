@@ -1,0 +1,36 @@
+.header {
+  background-color: rgb(235, 235, 235, 235);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ReservationType {
+  margin: 1rem;
+}
+.ReservationTime {
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+.ReservationTime_chip {
+  border: 1px solid black;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+.ReservationTime_chip_disabled {
+  border: 1px solid black;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0.2;
+}
+.chipList {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
