@@ -1,6 +1,6 @@
 .Menu {
   margin-bottom: 0.5rem;
-  background: white;
+  background: white !important;
   color: black;
   border-radius: 10px;
   width: 12rem;

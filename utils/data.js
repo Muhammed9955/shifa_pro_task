@@ -7,6 +7,10 @@ import { RiUmbrellaFill } from "react-icons/ri";
 import HomeStyles from "../styles/Home.module.css";
 import MenuStyle from "../styles/comp/Menu.module.css";
 
+export const colors = {
+  green: "#4ab9b1",
+  lightgreen:"#F1FAF9"
+};
 export const footerData = [
   {
     title: "الكادر الطبي",

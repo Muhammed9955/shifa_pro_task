@@ -3,13 +3,29 @@
   padding: 0 10%;
   position: relative;
 }
+.homeHeaderCon {
+  width: 40%;
+}
+.homeHeader {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
 .homeHeaderImg {
-  height: 40vh;
+  padding: 2rem 10%;
+  height: 60vh;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   margin-bottom: 10rem;
+  background: red;
+  background-image: url(../assets/homeHeader.png);
 }
 
+.headerBtns {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
 /* ListItem */
 .ListItem {
   display: flex;

@@ -1,0 +1,44 @@
+.Reviews {
+  padding: 0 10%;
+}
+.ReviewsTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.ReviewItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ReviewItem_centent {
+  padding: 1rem;
+  border-top: 2px solid #3f4494;
+  /* width: 60%; */
+}
+.Reviews_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Reviews_icon {
+  font-size: 1rem;
+  color: yellow;
+  margin-left: 1rem;
+}
+.ReviewItem_userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background: grey;
+  margin: 1rem;
+}
+
+.ReviewList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

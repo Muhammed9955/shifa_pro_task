@@ -1,7 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap");
+
 :root {
   --color-primary: #3f4394;
+  --green: #4ab9b1;
+  --lightgreen: #f1f8f8;
+  --grey: #c4c4c4;
+  --textgrey: #9898AE;
 }
 body {
   background: white;
