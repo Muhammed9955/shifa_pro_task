@@ -11,7 +11,7 @@ import Image from "next/image";
 // import Logo from "../../assets/logo-footer.svg";
 
 const Footer = () => {
-  console.log({ footerData });
+  // console.log({ footerData });
   return (
     <footer className={styles.footer}>
       {/* footer Resonsive */}
